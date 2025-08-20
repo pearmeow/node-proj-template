@@ -10,7 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "@eslint/js": "^9.33.0",
-    "env": "^0.0.2",
+    "dotenv": "^17.2.1",
     "eslint": "^9.33.0",
     "globals": "^16.3.0",
     "nodemon": "^3.1.10",
