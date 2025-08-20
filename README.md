@@ -1,12 +1,15 @@
-Basic Informational Site
-------------------------
+Node Project Template
+---------------------
 
-A really barebones site built with Node.js
+Project template for node.js projects
 
 Features
 --------
 
-- [x] Different pages to be routed to
+- [ ]
+- [ ]
+- [ ]
+- [ ]
 
 How to use this project
 -----------------------
