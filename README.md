@@ -6,10 +6,10 @@ Project template for node.js projects
 Features
 --------
 
-- [ ]
-- [ ]
-- [ ]
-- [ ]
+- [ ] A
+- [ ] B
+- [ ] C
+- [ ] D
 
 How to use this project
 -----------------------
