@@ -4,6 +4,7 @@ const path = require("node:path");
 const indexRouter = require("./routes/indexRouter");
 
 const app = express();
+app.use(express.urlencoded({ extended: true })); // make post work and have a body
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 
