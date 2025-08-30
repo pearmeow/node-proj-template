@@ -5,20 +5,22 @@ const routes = require("./routes");
 
 const app = express();
 
-// third party middleware
+// Third party middleware
 
 // enables requests from different origins
-app.use(cors()); // can add options inside for security
+app.use(cors({}));
 
-// application level middleware
+// Application level middleware
 
-app.use(express.json()); // parses json requests
+// parses json requests
+app.use(express.json());
 // parses urlencoded requests (forms with post)
 app.use(express.urlencoded({ extended: true }));
 
-// router middleware
+// Router middleware
 
-app.use("/", routes); // doesn't work, change in actual implementation
+// TODO: Change when routers are implemented
+app.use("/", routes);
 
 const PORT = 3000;
 
