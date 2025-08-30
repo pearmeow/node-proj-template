@@ -2,9 +2,9 @@
   "name": "nodejs project template",
   "version": "0.0.0",
   "description": "node project template",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
-    "dev": "node --watch app.js",
+    "dev": "node --watch src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Perry Huang",
@@ -16,15 +16,16 @@
     "prettier": "^3.6.2"
   },
   "dependencies": {
+    "@prisma/client": "^6.15.0",
+    "@quixo3/prisma-session-store": "^3.1.13",
     "bcryptjs": "^3.0.2",
-    "connect-pg-simple": "^10.0.0",
     "dotenv": "^17.2.1",
-    "ejs": "^3.1.10",
     "express": "^5.1.0",
     "express-session": "^1.18.2",
     "express-validator": "^7.2.1",
     "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
     "passport-local": "^1.0.0",
-    "pg": "^8.16.3"
+    "prisma": "^6.15.0"
   }
 }
